@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="@dimen/spinner_drawable_inset_top"
+    android:insetBottom="@dimen/spinner_drawable_inset_bottom"
+    android:insetLeft="@dimen/spinner_drawable_inset_left"
+    android:insetRight="@dimen/spinner_drawable_inset_right">
+    <bitmap android:src="@drawable/spinner_arrow" />
+</inset>

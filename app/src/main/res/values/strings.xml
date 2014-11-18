@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Acme</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- E RegistrationFragment -->
+    <string name="registration_action_bar_title">Sign</string>
+
+    <string name="registration_schools_hint">Find entity</string>
+    <string name="registration_schools_contentdesc">List of entities</string>
+
+    <string name="registration_users_hint">I am</string>
+    <string name="registration_users_contentdesc">Type of the user</string>
+
+    <string name="registration_firstname_hint">First Name</string>
+    <string name="registration_firstname_contentdesc">First name</string>
+
+    <string name="registration_lastname_hint">Last Name</string>
+    <string name="registration_lastname_contentdesc">Last Name</string>
+
+    <string name="registration_email_hint">Email</string>
+    <string name="registration_email_contentdesc">Email</string>
+
+    <string name="registration_password_hint">Password</string>
+    <string name="registration_password_contentdesc">Password</string>
+
+    <string name="registration_signup_text">Sign up</string>
+    <string name="registration_signup_contentdesc">Sign up button</string>
+
+    <string name="registration_termsandconds_text">
+        By clicking \"Sign up\" you agree with\n
+        <a href="https://www.classowl.com/terms">Terms and Conditions</a>
+    </string>
+
+    <string name="registration_toast_failed_to_retrieve">
+        Failed to retrieve data. Retrying...
+    </string>
+    <string name="registration_toast_unable_to_connect">
+        No Internet access.
+    </string>
+
+    <string-array name="registration_user_type">
+        <item>User Type A</item>
+        <item>User Type B</item>
+    </string-array>
+    <!-- X RegistrationFragment -->
+
+</resources>

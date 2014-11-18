@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_bar_background" type="color">#FF071027</item>
+    <item name="action_bar_text" type="color">#FFE2E4E8</item>
+    <!--<item name="action_bar_text" type="color">#FFf8324f</item>-->
+
+    <item name="background" type="color">#FF24324f</item>
+
+    <item name="button_background" type="color">#FF3594D0</item>
+    <item name="button_background_disabled" type="color">#FF919CA2</item>
+    <item name="button_text_color" type="color">#FFFFFFFF</item>
+    <item name="button_text_disabled" type="color">#FFDDDDDD</item>
+
+    <item name="text" type="color">#FF58595B</item>
+    <item name="text_secondary" type="color">#FF485770</item>
+    <item name="text_hyperlink" type="color">#FF3793D0</item>
+
+    <item name="input_item_background" type="color">#FFFFFFFF</item>
+    <item name="input_item_hint" type="color">#FFB3B3B3</item>
+    <item name="input_item_text_color" type="color">#FF58595B</item>
+
+</resources>

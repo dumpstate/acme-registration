@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/albert/workspace/tobe/isobar/acme-registration/app/build/intermediates/pre-dexed/debug/classes-2bba591a5d264f3c6d4823c091ceb39820c1b4bb.jar"
+        jar="/home/albert/workspace/tobe/isobar/acme-registration/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
+    <item
+        dex="/home/albert/workspace/tobe/isobar/acme-registration/app/build/intermediates/pre-dexed/debug/support-v4-19.0.1-82681cc69ad3910fbe9bff0f35aa718d0d0a5e7d.jar"
+        jar="/opt/android-studio-sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+
+</pre-dex-items>

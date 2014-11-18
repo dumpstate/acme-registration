@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RegistrationFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <Space
+                android:id="@+id/registration_header_space"
+                style="@style/registration_space" />
+
+            <Spinner
+                android:id="@+id/registration_entities_spinner"
+                style="@style/registration_spinner"
+                android:layout_below="@id/registration_header_space"
+                android:prompt="@string/registration_schools_hint"
+                android:contentDescription="@string/registration_schools_contentdesc"/>
+
+            <ProgressBar
+                android:id="@+id/registration_entities_progress_bar"
+                style="@style/registration_spinner"
+                android:visibility="gone"
+                android:layout_below="@id/registration_header_space"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                 />
+
+            <Spinner
+                android:id="@+id/registration_user_spinner"
+                style="@style/registration_spinner"
+                android:layout_below="@id/registration_entities_spinner"
+                android:prompt="@string/registration_users_hint"
+                android:contentDescription="@string/registration_users_contentdesc"/>
+
+            <EditText
+                android:id="@+id/registration_firstname_edittext"
+                style="@style/registration_edit_text"
+                android:layout_below="@id/registration_user_spinner"
+                android:hint="@string/registration_firstname_hint"
+                android:inputType="textPersonName"
+                android:contentDescription="@string/registration_firstname_contentdesc"/>
+
+            <EditText
+                android:id="@+id/registration_lastname_edittext"
+                style="@style/registration_edit_text"
+                android:layout_below="@id/registration_firstname_edittext"
+                android:hint="@string/registration_lastname_hint"
+                android:inputType="textPersonName"
+                android:contentDescription="@string/registration_lastname_contentdesc"/>
+
+            <EditText
+                android:id="@+id/registration_email_edittext"
+                style="@style/registration_edit_text"
+                android:layout_below="@id/registration_lastname_edittext"
+                android:hint="@string/registration_email_hint"
+                android:inputType="textEmailAddress"
+                android:contentDescription="@string/registration_email_contentdesc"/>
+
+            <EditText
+                android:id="@+id/registration_password_edittext"
+                style="@style/registration_edit_text"
+                android:layout_below="@id/registration_email_edittext"
+                android:inputType="textPassword"
+                android:hint="@string/registration_password_hint"
+                android:contentDescription="@string/registration_password_contentdesc"/>
+
+            <Space
+                android:id="@+id/registration_before_button_space"
+                android:layout_below="@id/registration_password_edittext"
+                style="@style/registration_space" />
+
+            <Button
+                android:id="@+id/registration_signup_button"
+                style="@style/registration_button"
+                android:layout_below="@id/registration_before_button_space"
+                android:text="@string/registration_signup_text"
+                android:enabled="false"
+                android:contentDescription="@string/registration_signup_contentdesc"/>
+
+            <Space
+                android:id="@+id/registration_after_button_space"
+                android:layout_below="@id/registration_signup_button"
+                style="@style/registration_space" />
+
+            <TextView
+                android:id="@+id/registration_termsandcond_textview"
+                style="@style/registration_text_item"
+                android:layout_below="@id/registration_after_button_space"
+                android:text="@string/registration_termsandconds_text" />
+
+            <Space
+                android:id="@+id/registration_footer_space"
+                android:layout_below="@id/registration_termsandcond_textview"
+                style="@style/registration_space" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

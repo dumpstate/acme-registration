@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:actionBarStyle">@style/AcmeActionBar</item>
+        <item name="android:buttonStyle">@style/AcmeButton</item>
+        <item name="android:editTextStyle">@style/AcmeEditText</item>
+        <item name="android:spinnerStyle">@style/AcmeOwlSpinner</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- E AcionBar styles -->
+    <style name="AcmeActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/action_bar_background</item>
+        <item name="android:titleTextStyle">@style/AcmeActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="AcmeActionBar.TitleTextStyle"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/action_bar_text</item>
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
+    </style>
+    <!-- X AcionBar styles -->
+
+    <!-- E Widget styles -->
+    <style name="AcmeButton" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="AcmeEditText" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/input_item_background</item>
+        <item name="android:textColor">@color/input_item_text_color</item>
+        <item name="android:textColorHint">@color/input_item_hint</item>
+    </style>
+
+    <style name="AcmeOwlSpinner" parent="android:style/Widget.Spinner">
+        <item name="android:background">@color/input_item_background</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- X Widget styles -->
+
+    <!-- E RegistrationFragment -->
+    <style name="registration_input_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/registration_input_item_height</item>
+
+        <item name="android:layout_marginLeft">@dimen/registration_input_item_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/registration_input_item_right_margin</item>
+        <item name="android:layout_marginTop">@dimen/registration_input_item_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/registration_input_item_bottom_margin</item>
+
+        <item name="android:paddingLeft">@dimen/registration_input_item_left_padding</item>
+        <item name="android:paddingRight">@dimen/registration_input_item_right_padding</item>
+        <item name="android:paddingTop">@dimen/registration_input_item_top_padding</item>
+        <item name="android:paddingBottom">@dimen/registration_input_item_bottom_padding</item>
+    </style>
+
+    <style name="registration_edit_text" parent="registration_input_item">
+    </style>
+
+    <style name="registration_button" parent="registration_input_item">
+    </style>
+
+    <style name="registration_spinner" parent="registration_input_item">
+    </style>
+
+    <style name="registration_text_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingExtra">@dimen/registration_footer_line_padding</item>
+    </style>
+
+    <style name="registration_space">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/registration_space_height</item>
+    </style>
+    <!-- X RegistrationFragment -->
+
+</resources>
